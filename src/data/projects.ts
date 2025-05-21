@@ -5,17 +5,17 @@ export const projects: Project[] = [
   {
     id: "exploratory-data-analysis",
     title: "Exploratory Data Analysis",
-    description: "In-depth exploratory data analysis of multiple datasets using Python, SQL, and visualization libraries to uncover patterns and insights.",
+    description: "Detailed analysis of various datasets to uncover patterns and trends, focusing on extracting meaningful insights from business data.",
     thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
     category: "Data Analysis",
-    tools: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "Jupyter Notebook"],
+    tools: ["SQL", "Excel", "Data Visualization", "Statistical Analysis"],
     date: "2025-05-15",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
     content: {
-      overview: "This project showcases various exploratory data analysis techniques applied to real-world datasets. Using Python's data science stack and SQL, I performed comprehensive analyses to extract meaningful patterns, trends, and insights from complex datasets.",
-      challenge: "Raw datasets often contain hidden patterns and relationships that aren't immediately apparent. The challenge was to employ appropriate statistical and visual analysis methods to uncover these insights while handling issues such as missing values, outliers, and complex relationships between variables.",
-      approach: "I utilized a structured approach to exploratory data analysis that involved data cleaning, descriptive statistics, correlation analysis, and advanced data visualization. For each dataset, I formulated specific questions to guide the analysis and used various Python libraries and SQL queries to investigate the data from multiple perspectives.",
-      results: "The analysis revealed several significant insights across datasets, including customer behavior patterns, performance trends, and unexpected correlations between variables. These findings were documented with clear visualizations and actionable recommendations for potential business decisions.",
+      overview: "This project demonstrates exploratory data analysis techniques applied to business datasets. Using various analytical methods, I performed comprehensive analyses to extract meaningful patterns, trends, and insights from complex datasets.",
+      challenge: "Raw datasets often contain hidden patterns and relationships that aren't immediately apparent. The challenge was to employ appropriate analytical methods to uncover these insights while handling issues such as missing values, outliers, and complex relationships between variables.",
+      approach: "I utilized a structured approach to exploratory data analysis that involved data cleaning, descriptive statistics, correlation analysis, and data visualization. For each dataset, I formulated specific questions to guide the analysis and used appropriate tools to investigate the data from multiple perspectives.",
+      results: "The analysis revealed several significant insights, including customer behavior patterns, performance trends, and unexpected correlations between variables. These findings were documented with clear explanations and actionable recommendations for potential business decisions.",
       insights: [
         "Identified key factors influencing customer purchasing decisions through correlation analysis",
         "Discovered seasonal trends in data that could be leveraged for strategic planning",
@@ -23,31 +23,31 @@ export const projects: Project[] = [
         "Mapped relationships between seemingly unrelated variables that revealed new business opportunities",
         "Quantified the impact of outliers and developed recommendations for handling edge cases"
       ],
-      conclusion: "This exploratory data analysis project demonstrates how systematic data investigation can transform raw information into actionable insights. The techniques and methodologies used are applicable across industries and can be adapted to various data-driven decision-making scenarios. The project showcases not only technical proficiency with analysis tools but also the ability to translate statistical findings into business-relevant recommendations."
+      conclusion: "This exploratory data analysis project demonstrates how systematic data investigation can transform raw information into actionable insights. The techniques and methodologies used are applicable across industries and can be adapted to various data-driven decision-making scenarios. The project showcases not only technical proficiency with analysis tools but also the ability to translate findings into business-relevant recommendations."
     }
   },
   {
     id: "data-cleaning-processing",
     title: "Data Cleaning & Processing",
-    description: "Comprehensive data cleaning and preprocessing pipelines for transforming raw, messy datasets into analysis-ready structured data.",
+    description: "Comprehensive data cleaning and preprocessing methodologies for transforming raw, messy datasets into analysis-ready structured data.",
     thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop",
     category: "Data Engineering",
-    tools: ["Python", "Pandas", "Regular Expressions", "SQL", "ETL", "Data Validation"],
+    tools: ["Excel", "SQL", "Data Validation", "Business Intelligence"],
     date: "2025-05-10",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
     content: {
-      overview: "This project focuses on developing robust data cleaning and preprocessing pipelines to transform raw, messy datasets into analysis-ready structured data. It addresses common data quality issues such as missing values, duplicates, inconsistent formats, and outliers through systematic cleansing methodologies.",
+      overview: "This project focuses on developing robust data cleaning and preprocessing methodologies to transform raw, messy datasets into analysis-ready structured data. It addresses common data quality issues such as missing values, duplicates, inconsistent formats, and outliers through systematic cleansing approaches.",
       challenge: "Real-world datasets often come with numerous quality issues including missing values, inconsistent formatting, duplicates, outliers, and structural problems. These issues significantly impact the reliability of subsequent analyses and must be addressed through systematic cleaning processes before meaningful insights can be derived.",
-      approach: "I developed a comprehensive approach to data cleaning that included automated detection of data quality issues, implementation of appropriate cleaning techniques, and validation of the cleaned datasets. This involved creating reusable functions and pipelines for handling specific data problems, employing regular expressions for text standardization, and implementing validation checks to ensure data integrity.",
-      results: "The developed cleaning pipelines successfully transformed several problematic datasets into high-quality, analysis-ready data resources. This improved the reliability of subsequent analyses and reduced processing time by automating repetitive cleaning tasks. The cleaning methodologies were documented as reusable components that can be applied to similar data challenges in the future.",
+      approach: "I developed a comprehensive approach to data cleaning that included automated detection of data quality issues, implementation of appropriate cleaning techniques, and validation of the cleaned datasets. This involved creating reusable methods for handling specific data problems, standardizing formats, and implementing validation checks to ensure data integrity.",
+      results: "The developed cleaning methodologies successfully transformed several problematic datasets into high-quality, analysis-ready data resources. This improved the reliability of subsequent analyses and reduced processing time by streamlining repetitive cleaning tasks. The cleaning approaches were documented as reusable processes that can be applied to similar data challenges in the future.",
       insights: [
         "Developed efficient methods for handling missing values that preserved data integrity while maximizing usable information",
-        "Created automated systems for detecting and correcting inconsistent formatting across text fields",
-        "Implemented outlier detection algorithms that distinguished between genuine outliers and data errors",
+        "Created systematic approaches for detecting and correcting inconsistent formatting across data fields",
+        "Implemented outlier detection methods that distinguished between genuine outliers and data errors",
         "Built validation frameworks that ensured cleaned data met predefined quality standards",
-        "Designed pipelines that reduced manual cleaning time by over 70% compared to ad-hoc approaches"
+        "Designed processes that reduced manual cleaning time compared to ad-hoc approaches"
       ],
-      conclusion: "This project demonstrates the critical importance of thorough data cleaning and preprocessing in the data analytics workflow. The methodologies and tools developed showcase not only technical skills in data manipulation but also a systematic approach to ensuring data quality. These techniques form the foundation for reliable analytics and are essential for any organization working with real-world datasets."
+      conclusion: "This project demonstrates the critical importance of thorough data cleaning and preprocessing in the data analytics workflow. The methodologies and approaches developed showcase not only technical skills in data handling but also a systematic approach to ensuring data quality. These techniques form the foundation for reliable analytics and are essential for any organization working with real-world datasets."
     }
   },
   {
