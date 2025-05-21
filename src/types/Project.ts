@@ -13,7 +13,7 @@ export interface Project {
     challenge: string;
     approach: string;
     results: string;
-    visualizations: {
+    visualizations?: {
       image: string;
       caption: string;
     }[];

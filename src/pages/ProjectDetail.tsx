@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { projects } from "../data/projects";
@@ -106,25 +105,6 @@ const ProjectDetail = () => {
             {/* Results Section */}
             <h3 className="text-xl font-semibold mb-3">Results</h3>
             <p className="text-gray-700 mb-6">{project.content.results}</p>
-          </div>
-
-          {/* Visualizations */}
-          <div className="bg-white p-6 md:p-8 rounded-lg shadow-md mb-8">
-            <h2 className="text-2xl font-bold mb-6">Data Visualizations</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {project.content.visualizations.map((viz, index) => (
-                <div key={index} className="overflow-hidden rounded-lg border">
-                  <img
-                    src={viz.image}
-                    alt={`Visualization ${index + 1}`}
-                    className="w-full h-64 object-cover"
-                  />
-                  <div className="p-4 bg-analytics-lightGray">
-                    <p className="text-sm text-gray-600">{viz.caption}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Key Insights */}
