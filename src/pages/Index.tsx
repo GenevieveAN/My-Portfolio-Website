@@ -53,7 +53,7 @@ const Index = () => {
       <Hero />
       
       <main className="flex-grow py-12 bg-analytics-lightGray">
-        <div className="analytics-container">
+        <div id="projects" className="analytics-container">
           <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
           
           <ProjectFilters

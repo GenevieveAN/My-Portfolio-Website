@@ -7,6 +7,7 @@ export interface Project {
   category: string;
   tools: string[];
   date: string;
+  repoUrl?: string;
   content: {
     overview: string;
     challenge: string;

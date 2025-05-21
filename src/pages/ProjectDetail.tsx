@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Github } from "lucide-react";
 
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -72,6 +72,18 @@ const ProjectDetail = () => {
                 </Badge>
               ))}
             </div>
+            
+            {project.repoUrl && (
+              <a 
+                href={project.repoUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-white/10 hover:bg-white/20 px-4 py-2 rounded-md mt-6 text-white transition-colors"
+              >
+                <Github className="h-4 w-4 mr-2" />
+                View GitHub Repository
+              </a>
+            )}
           </div>
         </div>
       </div>

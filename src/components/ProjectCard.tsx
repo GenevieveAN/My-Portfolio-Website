@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Project } from "../types/Project";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { Github } from "lucide-react";
 
 interface ProjectCardProps {
   project: Project;
@@ -23,6 +24,19 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               {project.category}
             </Badge>
           </div>
+          {project.repoUrl && (
+            <div className="absolute top-2 left-2">
+              <a 
+                href={project.repoUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white/90 p-1.5 rounded-full flex items-center justify-center hover:bg-white transition-colors"
+              >
+                <Github className="h-4 w-4 text-black" />
+              </a>
+            </div>
+          )}
         </div>
         <div className="p-4">
           <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
