@@ -8,6 +8,7 @@ export interface Project {
   tools: string[];
   date: string;
   repoUrl?: string;
+  dashboardUrl?: string;
   content: {
     overview: string;
     challenge: string;

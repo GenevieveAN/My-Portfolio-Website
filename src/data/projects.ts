@@ -35,7 +35,7 @@ export const projects: Project[] = [
     date: "2025-05-10",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
     content: {
-      overview: "This project focuses on developing robust data cleaning and preprocessing methodologies to transform raw, messy datasets into analysis-ready structured data. It addresses common data quality issues such as missing values, duplicates, inconsistent formats, and outliers through systematic cleansing approaches.",
+      overview: "This project focuses on developing robust data cleaning and preprocessing methodologies to transform raw, messy datasets into analysis-ready structured data. It addresses common data quality issues such as missing values, inconsistent formatting, duplicates, outliers, and structural problems through systematic cleansing approaches.",
       challenge: "Real-world datasets often come with numerous quality issues including missing values, inconsistent formatting, duplicates, outliers, and structural problems. These issues significantly impact the reliability of subsequent analyses and must be addressed through systematic cleaning processes before meaningful insights can be derived.",
       approach: "I developed a comprehensive approach to data cleaning that included automated detection of data quality issues, implementation of appropriate cleaning techniques, and validation of the cleaned datasets. This involved creating reusable methods for handling specific data problems, standardizing formats, and implementing validation checks to ensure data integrity.",
       results: "The developed cleaning methodologies successfully transformed several problematic datasets into high-quality, analysis-ready data resources. This improved the reliability of subsequent analyses and reduced processing time by streamlining repetitive cleaning tasks. The cleaning approaches were documented as reusable processes that can be applied to similar data challenges in the future.",
@@ -80,6 +80,7 @@ export const projects: Project[] = [
     category: "Business Intelligence",
     tools: ["Google Looker Studio", "SQL", "Data Modeling", "Google Analytics", "Data Visualization"],
     date: "2025-04-01",
+    dashboardUrl: "https://lookerstudio.google.com/embed/reporting/004f32f0-a36b-4bb7-a287-45897b9eef04/page/esYZE",
     content: {
       overview: "This project features a comprehensive e-commerce analytics dashboard built in Google Looker Studio that provides real-time insights into sales performance, product trends, and customer behavior. The dashboard integrates multiple data sources to create a holistic view of the business's e-commerce operations, enabling data-driven decision making.",
       challenge: "The e-commerce business was struggling with fragmented data across multiple platforms, making it difficult to gain actionable insights. Management needed a unified view of performance metrics, customer segments, and sales trends to optimize inventory, marketing strategies, and identify growth opportunities across different sales channels and product categories.",

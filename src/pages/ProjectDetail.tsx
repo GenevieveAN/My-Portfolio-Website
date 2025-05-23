@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { projects } from "../data/projects";
@@ -6,7 +7,7 @@ import Footer from "../components/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, Github } from "lucide-react";
+import { ArrowLeft, Github, BarChart } from "lucide-react";
 
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -72,17 +73,31 @@ const ProjectDetail = () => {
               ))}
             </div>
             
-            {project.repoUrl && (
-              <a 
-                href={project.repoUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-white/10 hover:bg-white/20 px-4 py-2 rounded-md mt-6 text-white transition-colors"
-              >
-                <Github className="h-4 w-4 mr-2" />
-                View GitHub Repository
-              </a>
-            )}
+            <div className="flex flex-wrap gap-4 mt-6">
+              {project.repoUrl && (
+                <a 
+                  href={project.repoUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-white/10 hover:bg-white/20 px-4 py-2 rounded-md text-white transition-colors"
+                >
+                  <Github className="h-4 w-4 mr-2" />
+                  View GitHub Repository
+                </a>
+              )}
+              
+              {project.dashboardUrl && (
+                <a 
+                  href={project.dashboardUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-white/10 hover:bg-white/20 px-4 py-2 rounded-md text-white transition-colors"
+                >
+                  <BarChart className="h-4 w-4 mr-2" />
+                  View Live Dashboard
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </div>
