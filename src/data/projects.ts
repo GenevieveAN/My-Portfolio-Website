@@ -1,4 +1,3 @@
-
 import { Project } from "../types/Project";
 
 export const projects: Project[] = [
@@ -74,38 +73,40 @@ export const projects: Project[] = [
     }
   },
   {
-    id: "1",
+    id: "ecommerce-sales-dashboard",
     title: "E-commerce Sales Analysis Dashboard",
-    description: "An interactive dashboard that analyzes customer behavior and sales patterns for an e-commerce company.",
+    description: "Interactive Looker Studio dashboard providing comprehensive insights into e-commerce performance metrics, customer behavior, and sales trends.",
     thumbnail: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop",
     category: "Business Intelligence",
-    tools: ["Tableau", "SQL", "Python", "Excel"],
-    date: "2023-10-15",
+    tools: ["Google Looker Studio", "SQL", "Data Modeling", "Google Analytics", "Data Visualization"],
+    date: "2025-04-01",
     content: {
-      overview: "Created a comprehensive sales dashboard for an e-commerce platform that processes over 10,000 transactions daily. The dashboard provided real-time insights into sales performance, customer behavior, and inventory management.",
-      challenge: "The client was struggling with interpreting their growing sales data across multiple platforms and needed a unified view to make data-driven decisions regarding inventory management and marketing strategies.",
-      approach: "I leveraged SQL for data extraction and cleaning, Python for advanced analytics, and Tableau for creating interactive visualizations. The process involved identifying key performance indicators, designing intuitive dashboards, and implementing drill-down capabilities for detailed analysis.",
-      results: "The dashboard resulted in a 15% increase in sales efficiency, 23% reduction in overstocked inventory, and helped identify top-performing products that were subsequently featured in targeted marketing campaigns.",
+      overview: "This project features a comprehensive e-commerce analytics dashboard built in Google Looker Studio that provides real-time insights into sales performance, product trends, and customer behavior. The dashboard integrates multiple data sources to create a holistic view of the business's e-commerce operations, enabling data-driven decision making.",
+      challenge: "The e-commerce business was struggling with fragmented data across multiple platforms, making it difficult to gain actionable insights. Management needed a unified view of performance metrics, customer segments, and sales trends to optimize inventory, marketing strategies, and identify growth opportunities across different sales channels and product categories.",
+      approach: "I developed an integrated dashboard solution using Google Looker Studio that combined data from multiple sources including the e-commerce platform, marketing analytics, and inventory systems. The approach involved designing intuitive visualizations focusing on key performance indicators, implementing interactive filters for deep-dive analysis, and creating automated reports for stakeholders.",
+      results: "The implemented dashboard provided immediate visibility into critical business metrics, revealing several actionable insights that directly impacted business performance. The solution enabled stakeholders to make informed decisions regarding inventory management, marketing spend allocation, and product positioning based on real-time data rather than intuition.",
       visualizations: [
         {
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
-          caption: "Sales trends dashboard showing monthly performance compared to previous year"
+          caption: "Sales performance by product category with trend analysis"
         },
         {
           image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&auto=format&fit=crop",
-          caption: "Customer segmentation analysis by purchase behavior"
+          caption: "Customer segmentation dashboard showing buying patterns across demographics"
         }
       ],
       insights: [
-        "Identified a 27% increase in mobile purchases year-over-year",
-        "Discovered peak purchasing hours between 8-10 PM on weekdays",
-        "Recognized cross-selling opportunities that increased average order value by 12%"
+        "Identified that mobile users account for 65% of traffic but only 42% of conversions, highlighting a significant optimization opportunity",
+        "Discovered a 30% higher average order value for customers arriving through comparison shopping engines versus social media",
+        "Revealed seasonal purchasing patterns that could inform inventory planning and promotional campaigns",
+        "Pinpointed underperforming product categories with high return rates, enabling targeted quality improvement initiatives",
+        "Mapped the customer journey across touchpoints, identifying key drop-off points in the conversion funnel"
       ],
-      conclusion: "This project demonstrated how proper data visualization can transform raw sales data into actionable insights, directly impacting business outcomes and strategic planning."
+      conclusion: "The e-commerce analytics dashboard has transformed how the business understands its online sales performance and customer behavior. While Looker Studio provides excellent visualization capabilities and Google ecosystem integration, as the business scales, it may be worth exploring enterprise-grade solutions like Tableau or Power BI that offer more advanced data modeling, better handling of large datasets, and enhanced security features. However, for current needs, Looker Studio remains a cost-effective and powerful solution that delivers significant business value through actionable insights."
     }
   },
   {
-    id: "2",
+    id: "1",
     title: "Healthcare Patient Flow Optimization",
     description: "Statistical analysis and predictive modeling to optimize patient scheduling and reduce wait times.",
     thumbnail: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&auto=format&fit=crop",
@@ -136,7 +137,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: "3",
+    id: "2",
     title: "Financial Market Sentiment Analysis",
     description: "Natural language processing to analyze market sentiment from news articles and social media.",
     thumbnail: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop",
@@ -167,7 +168,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: "4",
+    id: "3",
     title: "Supply Chain Network Optimization",
     description: "Using network analysis and optimization algorithms to redesign global supply chain operations.",
     thumbnail: "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=800&auto=format&fit=crop",
