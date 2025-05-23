@@ -1,0 +1,20 @@
+The GitHub repository is connected to your Lovable project, allowing you to edit content in multiple ways:
+
+To edit text, images, and content on your site, you'll primarily need to modify these files:
+
+For project data: Edit src/data/projects.ts - This contains all your project information including titles, descriptions, images, etc.
+
+For page content: Files in the src/pages directory control what appears on each page:
+
+Index.tsx (home page)
+About.tsx (about page)
+Contact.tsx (contact page)
+ProjectDetail.tsx (individual project pages)
+For images:
+
+You can use URLs to images hosted elsewhere (like you're currently doing with Unsplash)
+Or upload images to your GitHub repository (in a /public or /assets folder) and reference them locally
+For components: If you want to change how certain elements look, you'd edit files in src/components/
+
+The most common file you'll want to edit is src/data/projects.ts whenever you want to add or update a project. To add a new project, you would add a new object to the projects array with all the required fields from the Project type defined in src/types/Project.ts.
+
