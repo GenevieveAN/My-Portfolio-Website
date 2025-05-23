@@ -1,3 +1,4 @@
+
 import { Project } from "../types/Project";
 
 export const projects: Project[] = [
@@ -107,96 +108,49 @@ export const projects: Project[] = [
     }
   },
   {
-    id: "1",
-    title: "Healthcare Patient Flow Optimization",
-    description: "Statistical analysis and predictive modeling to optimize patient scheduling and reduce wait times.",
-    thumbnail: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&auto=format&fit=crop",
-    category: "Healthcare Analytics",
-    tools: ["R", "Power BI", "Statistical Modeling", "Process Mining"],
-    date: "2023-07-22",
+    id: "hr-analytics-dashboard",
+    title: "HR Analytics Dashboard",
+    description: "Comprehensive HR analytics platform providing insights into employee performance, retention strategies, and workforce optimization.",
+    thumbnail: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop",
+    category: "HR Analytics",
+    tools: ["Tableau", "R", "Statistical Modeling", "Data Visualization", "HR Systems Integration"],
+    date: "2025-03-15",
     content: {
-      overview: "Developed a data-driven solution for a regional hospital to optimize patient scheduling and resource allocation, ultimately reducing wait times and improving patient satisfaction.",
-      challenge: "The hospital was experiencing significant bottlenecks in patient flow, with average wait times exceeding 45 minutes and inefficient allocation of medical staff across departments.",
-      approach: "I analyzed historical patient data, appointment patterns, and staff availability using R for statistical modeling. Process mining techniques were employed to identify bottlenecks, and I created predictive models to forecast patient volumes across different time periods.",
-      results: "Implementation of the new scheduling system resulted in a 35% reduction in patient wait times, 20% improvement in resource utilization, and increased patient satisfaction scores from 7.2 to 8.9 (out of 10).",
-      visualizations: [
-        {
-          image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop",
-          caption: "Patient flow analysis showing bottlenecks in the admission process"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&auto=format&fit=crop",
-          caption: "Predictive model for weekly patient volume by department"
-        }
-      ],
+      overview: "This project showcases an advanced HR analytics dashboard designed to help human resources departments make data-driven decisions about their workforce. The dashboard integrates data from various HR systems to provide a comprehensive view of employee performance, retention risks, hiring effectiveness, and organizational health.",
+      challenge: "The organization was experiencing high turnover rates and struggling to identify effective retention strategies. HR lacked visibility into key performance indicators across departments and couldn't accurately predict which employees were at risk of leaving. Additionally, hiring managers needed better insights to optimize the recruitment process and reduce time-to-hire.",
+      approach: "I developed a multi-faceted analytics solution that connected disparate HR data sources into a unified dashboard. Using statistical modeling and machine learning techniques, I created predictive models for employee attrition risk and performance trajectories. The dashboard was designed with both strategic overview panels for executives and detailed drill-down capabilities for HR professionals.",
+      results: "Implementation of the HR analytics dashboard led to a 24% reduction in voluntary employee turnover through early intervention strategies. The organization improved hiring efficiency by 35% by identifying the most effective recruitment channels and optimizing the candidate assessment process. Additionally, targeted employee development programs based on performance analytics increased productivity metrics across key departments.",
       insights: [
-        "Morning appointments were consistently overbooked while afternoon slots remained underutilized",
-        "Specialized services could be consolidated on specific days to improve staff efficiency",
-        "Pre-registration process improvements could save an average of 12 minutes per patient"
+        "Identified specific management behaviors that strongly correlated with high team retention rates",
+        "Discovered that compensation was only the third most important factor in employee retention, behind career growth opportunities and work-life balance",
+        "Uncovered hiring biases in the recruitment process through pattern analysis of successful candidates",
+        "Determined optimal team compositions based on skill complementarity and working style compatibility",
+        "Created an early warning system for burnout risk that achieved 78% accuracy in predicting potential resignations"
       ],
-      conclusion: "By applying data analytics to healthcare operations, we were able to create a more efficient system that benefited both patients and medical staff, demonstrating the value of analytics in non-traditional business settings."
+      conclusion: "The HR analytics dashboard transformed the organization's approach to human capital management by replacing intuition-based decisions with data-driven strategies. By quantifying the impact of various HR initiatives and providing visibility into workforce trends, the solution enabled more strategic resource allocation and policy development. The dashboard continues to evolve with new metrics and predictive capabilities as the organization's needs change, demonstrating the value of analytics in modernizing human resources management."
     }
   },
   {
-    id: "2",
-    title: "Financial Market Sentiment Analysis",
-    description: "Natural language processing to analyze market sentiment from news articles and social media.",
-    thumbnail: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop",
-    category: "Financial Analytics",
-    tools: ["Python", "NLP", "Machine Learning", "Matplotlib"],
-    date: "2023-04-10",
+    id: "sales-performance-analytics",
+    title: "Sales Performance Analytics Platform",
+    description: "End-to-end sales analytics solution providing actionable insights into sales performance, pipeline management, and revenue forecasting.",
+    thumbnail: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
+    category: "Sales Analytics",
+    tools: ["Power BI", "SQL", "Excel", "CRM Integration", "Predictive Analytics"],
+    date: "2025-02-10",
     content: {
-      overview: "Built a sentiment analysis tool that processes financial news and social media content to gauge market sentiment for specific stocks and sectors, providing traders with additional signals for their investment decisions.",
-      challenge: "Financial traders were struggling to systematically incorporate qualitative information from news and social media into their trading strategies, often missing important sentiment shifts that impacted market movements.",
-      approach: "I implemented natural language processing techniques using Python to analyze text data from multiple sources. The solution included data collection through APIs, text preprocessing, sentiment classification using machine learning models, and visualization of sentiment trends.",
-      results: "The sentiment analysis tool achieved 78% accuracy in predicting short-term price movements based on sentiment signals alone. When combined with technical analysis, trading strategies incorporating sentiment data showed a 12% improvement in returns.",
-      visualizations: [
-        {
-          image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&auto=format&fit=crop",
-          caption: "Sentiment trends correlated with stock price movements"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=800&auto=format&fit=crop",
-          caption: "Topic modeling results showing prevalent themes in financial news"
-        }
-      ],
+      overview: "This project demonstrates a comprehensive sales analytics platform designed to transform raw sales data into actionable business intelligence. The solution integrates CRM data with other business systems to provide sales leaders with real-time insights into performance metrics, pipeline health, and revenue forecasting.",
+      challenge: "The sales organization lacked visibility into key performance indicators across their sales pipeline and couldn't accurately forecast revenue. Sales managers struggled to identify which representatives needed coaching and which selling techniques were most effective across different customer segments and product lines.",
+      approach: "I developed an integrated analytics solution that connected the company's CRM system with other data sources to create a unified view of sales performance. The approach included building custom ETL processes, designing interactive dashboards with drill-down capabilities, and implementing predictive models for sales forecasting and lead scoring.",
+      results: "The sales analytics platform enabled the organization to increase quarterly revenue by 18% through improved pipeline management and more effective resource allocation. The solution provided sales managers with early warning indicators for at-risk deals and helped identify the most effective sales methodologies for each customer segment, resulting in a 27% improvement in win rates for targeted accounts.",
       insights: [
-        "Social media sentiment often preceded news article sentiment by 3-5 hours",
-        "Negative sentiment had a stronger and more immediate impact on stock prices than positive sentiment",
-        "Sentiment analysis was particularly effective for consumer-facing companies where public opinion directly impacts sales"
+        "Discovered that deals with multiple stakeholder engagements were 3.4 times more likely to close successfully than those with single-point contacts",
+        "Identified optimal pricing strategies by segment that increased average deal size by 22% without negatively impacting close rates",
+        "Revealed that 65% of lost deals shared common objection patterns that could be addressed through sales training",
+        "Determined that deals progressing through pipeline stages within specific time windows had significantly higher close probabilities",
+        "Quantified the impact of marketing qualified leads by source, showing which channels delivered the highest quality prospects"
       ],
-      conclusion: "This project demonstrated the value of incorporating alternative data sources into financial analysis, creating a more holistic approach to market intelligence that captures both quantitative and qualitative factors."
-    }
-  },
-  {
-    id: "3",
-    title: "Supply Chain Network Optimization",
-    description: "Using network analysis and optimization algorithms to redesign global supply chain operations.",
-    thumbnail: "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=800&auto=format&fit=crop",
-    category: "Supply Chain Analytics",
-    tools: ["Python", "CPLEX", "GIS Mapping", "Scenario Analysis"],
-    date: "2022-11-30",
-    content: {
-      overview: "Redesigned the global supply chain network for a manufacturing company to optimize distribution routes, warehouse locations, and inventory levels across three continents.",
-      challenge: "The company was experiencing increasing logistics costs and delivery delays due to suboptimal warehouse locations and distribution routes established before their recent expansion into new markets.",
-      approach: "I developed a mathematical optimization model using Python and CPLEX to determine optimal facility locations, incorporated transportation constraints and costs, and evaluated different scenarios to account for demand fluctuations and supply risks.",
-      results: "The optimized network design reduced transportation costs by 18%, decreased average delivery time by 2.3 days, and improved inventory turnover by 22%, while maintaining service level agreements with customers.",
-      visualizations: [
-        {
-          image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&auto=format&fit=crop",
-          caption: "Global supply chain network with optimized routes"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1565891741441-64926e441838?w=800&auto=format&fit=crop",
-          caption: "Cost-sensitivity analysis for different warehouse configurations"
-        }
-      ],
-      insights: [
-        "Consolidating European distribution centers from 5 to 3 strategically located facilities optimized coverage while reducing costs",
-        "Air freight utilization could be reduced by 35% through better demand forecasting and inventory management",
-        "Adding a cross-docking facility in Singapore significantly improved distribution efficiency in Southeast Asia"
-      ],
-      conclusion: "This project showcased how advanced analytics and optimization techniques can transform supply chain operations, leading to significant cost savings and improved customer satisfaction through faster and more reliable deliveries."
+      conclusion: "This sales analytics platform demonstrates how data-driven insights can transform sales operations from intuition-based decisions to strategic, evidence-based approaches. By providing sales leaders with both high-level performance metrics and granular insights into individual deals and representatives, the solution enables more effective coaching, resource allocation, and strategic planning. The project showcases how modern analytics can directly impact revenue growth and sales efficiency in competitive markets."
     }
   }
 ];
