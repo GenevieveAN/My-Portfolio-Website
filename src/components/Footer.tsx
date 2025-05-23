@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-4 border-t border-analytics-gray text-center text-sm text-analytics-lightGray">
-          <p>© {new Date().getFullYear()} DataInsight. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Data Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>
