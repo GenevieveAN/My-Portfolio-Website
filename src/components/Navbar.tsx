@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="border-b bg-white sticky top-0 z-10">
       <div className="analytics-container py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-analytics-blue hover:text-analytics-lightBlue transition-colors">
-          DataInsight
+          Data Portfolio
         </Link>
         <div className="flex gap-6">
           <Link to="/" className="text-gray-600 hover:text-analytics-blue transition-colors">
