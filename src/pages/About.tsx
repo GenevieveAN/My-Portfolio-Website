@@ -1,3 +1,4 @@
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Separator } from "@/components/ui/separator";
@@ -26,7 +27,7 @@ const About = () => {
               <div className="md:w-1/3">
                 <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop" 
+                    src="https://avatars.githubusercontent.com/u/106548506?v=4" 
                     alt="Profile" 
                     className="w-full h-auto" 
                   />
@@ -45,14 +46,13 @@ const About = () => {
               <div className="md:w-2/3">
                 <h2 className="text-2xl font-bold mb-4">Professional Background</h2>
                 <p className="mb-4 text-gray-700">
-                  With experience as a Marketing Data Analyst at McCann Worldgroup and extensive project management background, 
-                  I combine technical expertise in data analytics with strategic marketing insight. I specialize in leveraging data to 
-                  optimize marketing campaigns, improve customer experiences, and drive business growth through actionable insights.
+                  With a Master's in Biotechnology and Business from University College Dublin and a Bachelor's in Biochemistry, Cell and Molecular Biology from the University of Ghana, I bring a unique analytical foundation to marketing data analysis. My technical project management expertise is further strengthened by a Project Management Diploma from UCD Professional Academy.
+                </p>
+                <p className="mb-4 text-gray-700">
+                  As a Marketing Data Analyst at McCann Worldgroup, I leverage my Certified Digital Marketing Professional credentials from the Digital Marketing Institute and American Marketing Association, along with Google Analytics 4 certification, to drive data-informed marketing strategies. My extensive project management background enables me to bridge technical teams and business stakeholders effectively.
                 </p>
                 <p className="text-gray-700">
-                  I hold a Master's degree in Applied Social Research from Trinity College Dublin and a Bachelor's in Communication Studies from 
-                  Ghana Institute of Journalism. My unique background in research methodologies, data analysis, and communication allows me to 
-                  translate complex data findings into clear, impactful strategies that resonate with stakeholders at all levels.
+                  I specialize in transforming complex datasets into actionable insights that optimize marketing campaigns, enhance customer experiences, and drive measurable business growth. My interdisciplinary background in life sciences, business, and digital marketing allows me to approach data challenges with both scientific rigor and strategic marketing insight.
                 </p>
               </div>
             </div>
