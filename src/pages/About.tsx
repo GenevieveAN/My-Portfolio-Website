@@ -1,4 +1,5 @@
 
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Separator } from "@/components/ui/separator";
@@ -15,7 +16,7 @@ const About = () => {
         <div className="analytics-container">
           <h1 className="text-4xl font-bold mb-4">About Me</h1>
           <p className="text-xl max-w-3xl">
-            Marketing Analytics Manager and Technical Project Manager with expertise in transforming complex data into actionable insights that drive business growth.
+            Marketing Analytics Lead and Technical Project Manager with expertise in transforming complex data into actionable insights that drive business growth.
           </p>
         </div>
       </div>
@@ -27,7 +28,7 @@ const About = () => {
               <div className="md:w-1/3">
                 <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="https://avatars.githubusercontent.com/u/106548506?v=4" 
+                    src="/lovable-uploads/db187c41-785e-4420-8b73-93d1921e2374.png" 
                     alt="Profile" 
                     className="w-full h-auto" 
                   />
@@ -46,10 +47,10 @@ const About = () => {
               <div className="md:w-2/3">
                 <h2 className="text-2xl font-bold mb-4">Professional Background</h2>
                 <p className="mb-4 text-gray-700">
-                  With a Master's in Biotechnology and Business from University College Dublin and a Bachelor's in Biochemistry, Cell and Molecular Biology from the University of Ghana, I bring a unique analytical foundation to marketing data analysis. My technical project management expertise is further strengthened by a Project Management Diploma from UCD Professional Academy.
+                  With a Master's in Biotechnology and Business from University College Dublin and a Diploma in Project Management from UCD Professional Academy, I bring a unique analytical foundation to marketing data analysis. My technical project management expertise, combined with my research scientist background, enables me to bridge technical teams and business stakeholders effectively.
                 </p>
                 <p className="mb-4 text-gray-700">
-                  As a Marketing Data Analyst at McCann Worldgroup, I leverage my Certified Digital Marketing Professional credentials from the Digital Marketing Institute and American Marketing Association, along with Google Analytics 4 certification, to drive data-informed marketing strategies. My extensive project management background enables me to bridge technical teams and business stakeholders effectively.
+                  Currently serving as a Marketing Analytics Lead at the University of Georgia, I leverage my Certified Digital Marketing Professional credentials from the Digital Marketing Institute and American Marketing Association, along with Google Analytics 4 certification, to drive data-informed marketing strategies. My previous experience as a Talent Intelligence and Operations Analyst at Teamwork (a remote SaaS startup) and as a Research Scientist at the West African Centre for Cell Biology of Infectious Pathogens has equipped me with diverse analytical skills.
                 </p>
                 <p className="text-gray-700">
                   I specialize in transforming complex datasets into actionable insights that optimize marketing campaigns, enhance customer experiences, and drive measurable business growth. My interdisciplinary background in life sciences, business, and digital marketing allows me to approach data challenges with both scientific rigor and strategic marketing insight.
@@ -151,11 +152,6 @@ const About = () => {
               </div>
               
               <div className="border-l-4 border-analytics-blue pl-4">
-                <h3 className="font-semibold">Bachelor's in Biochemistry, Cell and Molecular Biology</h3>
-                <p className="text-gray-600">University of Ghana</p>
-              </div>
-              
-              <div className="border-l-4 border-analytics-blue pl-4">
                 <h3 className="font-semibold">Diploma in Project Management</h3>
                 <p className="text-gray-600">UCD Professional Academy</p>
               </div>
@@ -165,22 +161,27 @@ const About = () => {
                 <p className="text-gray-600">Digital Marketing Institute & American Marketing Association</p>
               </div>
               
+              <div className="border-l-4 border-analytics-blue pl-4">
+                <h3 className="font-semibold">Bachelor's in Biochemistry, Cell and Molecular Biology</h3>
+                <p className="text-gray-600">University of Ghana</p>
+              </div>
+              
               <Separator className="my-6" />
               
               <div className="space-y-4">
                 <div className="border-l-4 border-analytics-teal pl-4">
-                  <h3 className="font-semibold">Marketing Data Analyst</h3>
-                  <p className="text-gray-600">McCann Worldgroup</p>
+                  <h3 className="font-semibold">Marketing Analytics Lead</h3>
+                  <p className="text-gray-600">University of Georgia</p>
                 </div>
                 
                 <div className="border-l-4 border-analytics-teal pl-4">
-                  <h3 className="font-semibold">Project Coordinator</h3>
-                  <p className="text-gray-600">Royal College of Surgeons in Ireland</p>
+                  <h3 className="font-semibold">Talent Intelligence and Operations Analyst</h3>
+                  <p className="text-gray-600">Teamwork (Remote SaaS Startup)</p>
                 </div>
                 
                 <div className="border-l-4 border-analytics-teal pl-4">
-                  <h3 className="font-semibold">Research Assistant</h3>
-                  <p className="text-gray-600">Trinity College Dublin</p>
+                  <h3 className="font-semibold">Research Scientist</h3>
+                  <p className="text-gray-600">West African Centre for Cell Biology of Infectious Pathogens</p>
                 </div>
               </div>
               
@@ -234,3 +235,4 @@ const About = () => {
 };
 
 export default About;
+
