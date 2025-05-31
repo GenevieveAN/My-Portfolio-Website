@@ -106,51 +106,5 @@ export const projects: Project[] = [
       ],
       conclusion: "The e-commerce analytics dashboard has transformed how the business understands its online sales performance and customer behavior. While Looker Studio provides excellent visualization capabilities and Google ecosystem integration, as the business scales, it may be worth exploring enterprise-grade solutions like Tableau or Power BI that offer more advanced data modeling, better handling of large datasets, and enhanced security features. However, for current needs, Looker Studio remains a cost-effective and powerful solution that delivers significant business value through actionable insights."
     }
-  },
-  {
-    id: "hr-analytics-dashboard",
-    title: "HR Analytics Dashboard",
-    description: "Comprehensive HR analytics platform providing insights into employee performance, retention strategies, and workforce optimization.",
-    thumbnail: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop",
-    category: "HR Analytics",
-    tools: ["Tableau", "R", "Statistical Modeling", "Data Visualization", "HR Systems Integration"],
-    date: "2025-03-15",
-    content: {
-      overview: "This project showcases an advanced HR analytics dashboard designed to help human resources departments make data-driven decisions about their workforce. The dashboard integrates data from various HR systems to provide a comprehensive view of employee performance, retention risks, hiring effectiveness, and organizational health.",
-      challenge: "The organization was experiencing high turnover rates and struggling to identify effective retention strategies. HR lacked visibility into key performance indicators across departments and couldn't accurately predict which employees were at risk of leaving. Additionally, hiring managers needed better insights to optimize the recruitment process and reduce time-to-hire.",
-      approach: "I developed a multi-faceted analytics solution that connected disparate HR data sources into a unified dashboard. Using statistical modeling and machine learning techniques, I created predictive models for employee attrition risk and performance trajectories. The dashboard was designed with both strategic overview panels for executives and detailed drill-down capabilities for HR professionals.",
-      results: "Implementation of the HR analytics dashboard led to a 24% reduction in voluntary employee turnover through early intervention strategies. The organization improved hiring efficiency by 35% by identifying the most effective recruitment channels and optimizing the candidate assessment process. Additionally, targeted employee development programs based on performance analytics increased productivity metrics across key departments.",
-      insights: [
-        "Identified specific management behaviors that strongly correlated with high team retention rates",
-        "Discovered that compensation was only the third most important factor in employee retention, behind career growth opportunities and work-life balance",
-        "Uncovered hiring biases in the recruitment process through pattern analysis of successful candidates",
-        "Determined optimal team compositions based on skill complementarity and working style compatibility",
-        "Created an early warning system for burnout risk that achieved 78% accuracy in predicting potential resignations"
-      ],
-      conclusion: "The HR analytics dashboard transformed the organization's approach to human capital management by replacing intuition-based decisions with data-driven strategies. By quantifying the impact of various HR initiatives and providing visibility into workforce trends, the solution enabled more strategic resource allocation and policy development. The dashboard continues to evolve with new metrics and predictive capabilities as the organization's needs change, demonstrating the value of analytics in modernizing human resources management."
-    }
-  },
-  {
-    id: "sales-performance-analytics",
-    title: "Sales Performance Analytics Platform",
-    description: "End-to-end sales analytics solution providing actionable insights into sales performance, pipeline management, and revenue forecasting.",
-    thumbnail: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
-    category: "Sales Analytics",
-    tools: ["Power BI", "SQL", "Excel", "CRM Integration", "Predictive Analytics"],
-    date: "2025-02-10",
-    content: {
-      overview: "This project demonstrates a comprehensive sales analytics platform designed to transform raw sales data into actionable business intelligence. The solution integrates CRM data with other business systems to provide sales leaders with real-time insights into performance metrics, pipeline health, and revenue forecasting.",
-      challenge: "The sales organization lacked visibility into key performance indicators across their sales pipeline and couldn't accurately forecast revenue. Sales managers struggled to identify which representatives needed coaching and which selling techniques were most effective across different customer segments and product lines.",
-      approach: "I developed an integrated analytics solution that connected the company's CRM system with other data sources to create a unified view of sales performance. The approach included building custom ETL processes, designing interactive dashboards with drill-down capabilities, and implementing predictive models for sales forecasting and lead scoring.",
-      results: "The sales analytics platform enabled the organization to increase quarterly revenue by 18% through improved pipeline management and more effective resource allocation. The solution provided sales managers with early warning indicators for at-risk deals and helped identify the most effective sales methodologies for each customer segment, resulting in a 27% improvement in win rates for targeted accounts.",
-      insights: [
-        "Discovered that deals with multiple stakeholder engagements were 3.4 times more likely to close successfully than those with single-point contacts",
-        "Identified optimal pricing strategies by segment that increased average deal size by 22% without negatively impacting close rates",
-        "Revealed that 65% of lost deals shared common objection patterns that could be addressed through sales training",
-        "Determined that deals progressing through pipeline stages within specific time windows had significantly higher close probabilities",
-        "Quantified the impact of marketing qualified leads by source, showing which channels delivered the highest quality prospects"
-      ],
-      conclusion: "This sales analytics platform demonstrates how data-driven insights can transform sales operations from intuition-based decisions to strategic, evidence-based approaches. By providing sales leaders with both high-level performance metrics and granular insights into individual deals and representatives, the solution enables more effective coaching, resource allocation, and strategic planning. The project showcases how modern analytics can directly impact revenue growth and sales efficiency in competitive markets."
-    }
   }
 ];
