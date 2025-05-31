@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Separator } from "@/components/ui/separator";
@@ -147,13 +146,23 @@ const About = () => {
             <h2 className="text-2xl font-bold mb-6">Education & Experience</h2>
             <div className="space-y-6">
               <div className="border-l-4 border-analytics-blue pl-4">
-                <h3 className="font-semibold">Master's in Applied Social Research</h3>
-                <p className="text-gray-600">Trinity College Dublin, 2021</p>
+                <h3 className="font-semibold">Master's in Biotechnology and Business</h3>
+                <p className="text-gray-600">University College Dublin</p>
               </div>
               
               <div className="border-l-4 border-analytics-blue pl-4">
-                <h3 className="font-semibold">Bachelor's in Communication Studies</h3>
-                <p className="text-gray-600">Ghana Institute of Journalism, 2015</p>
+                <h3 className="font-semibold">Bachelor's in Biochemistry, Cell and Molecular Biology</h3>
+                <p className="text-gray-600">University of Ghana</p>
+              </div>
+              
+              <div className="border-l-4 border-analytics-blue pl-4">
+                <h3 className="font-semibold">Diploma in Project Management</h3>
+                <p className="text-gray-600">UCD Professional Academy</p>
+              </div>
+              
+              <div className="border-l-4 border-analytics-blue pl-4">
+                <h3 className="font-semibold">Certified Digital Marketing Professional</h3>
+                <p className="text-gray-600">Digital Marketing Institute & American Marketing Association</p>
               </div>
               
               <Separator className="my-6" />
@@ -184,7 +193,7 @@ const About = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <span>Google Analytics Certified</span>
+                  <span>Google Analytics 4 Certified</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
@@ -193,7 +202,16 @@ const About = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <span>Google Data Studio (Looker)</span>
+                  <span>Certified Digital Marketing Professional</span>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <div className="h-8 w-8 bg-analytics-lightGray rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-analytics-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <span>Project Management Diploma</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
@@ -203,15 +221,6 @@ const About = () => {
                     </svg>
                   </div>
                   <span>Advanced Excel</span>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <div className="h-8 w-8 bg-analytics-lightGray rounded-full flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-analytics-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <span>Project Management</span>
                 </div>
               </div>
             </div>
