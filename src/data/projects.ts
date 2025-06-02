@@ -82,18 +82,18 @@ export const projects: Project[] = [
     date: "2025-04-01",
     dashboardUrl: "https://lookerstudio.google.com/embed/reporting/004f32f0-a36b-4bb7-a287-45897b9eef04/page/esYZE",
     content: {
-      overview: "This project features a comprehensive e-commerce analytics dashboard built in Google Looker Studio that provides real-time insights into sales performance, product trends, and customer behavior. The dashboard integrates multiple data sources to create a holistic view of the business's e-commerce operations, enabling data-driven decision making.",
-      challenge: "The e-commerce business was struggling with fragmented data across multiple platforms, making it difficult to gain actionable insights. Management needed a unified view of performance metrics, customer segments, and sales trends to optimize inventory, marketing strategies, and identify growth opportunities across different sales channels and product categories.",
-      approach: "I developed an integrated dashboard solution using Google Looker Studio that combined data from multiple sources including the e-commerce platform, marketing analytics, and inventory systems. The approach involved designing intuitive visualizations focusing on key performance indicators, implementing interactive filters for deep-dive analysis, and creating automated reports for stakeholders.",
-      results: "The implemented dashboard provided immediate visibility into critical business metrics, revealing several actionable insights that directly impacted business performance. The solution enabled stakeholders to make informed decisions regarding inventory management, marketing spend allocation, and product positioning based on real-time data rather than intuition.",
+      overview: "This project features a comprehensive marketing analytics dashboard built in Google Looker Studio that provides real-time insights into campaign performance, traffic attribution, and customer acquisition channels. The dashboard integrates data from Google Analytics and other marketing platforms to create a holistic view of digital marketing effectiveness, enabling data-driven optimization of advertising spend and campaign targeting.",
+      challenge: "The marketing team was struggling with fragmented campaign data across multiple advertising platforms, making it difficult to understand which channels were driving quality traffic and conversions. Management needed unified visibility into campaign performance, traffic attribution, and customer acquisition costs to optimize marketing budget allocation and improve ROI across different digital channels.",
+      approach: "I developed an integrated marketing analytics dashboard using Google Looker Studio that combined data from Google Analytics, advertising platforms, and campaign tracking systems. The approach involved designing visualizations focused on traffic attribution and campaign performance metrics, implementing interactive filters for channel-specific analysis, and creating automated reports for marketing stakeholders to track key performance indicators.",
+      results: "The implemented dashboard provided immediate visibility into campaign effectiveness and traffic attribution patterns, revealing actionable insights that directly impacted marketing performance. The solution enabled the marketing team to make informed decisions about budget allocation, audience targeting, and campaign optimization based on real-time attribution data rather than assumptions.",
       visualizations: [
         {
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
-          caption: "Sales performance by product category with trend analysis"
+          caption: "Campaign performance analysis showing traffic sources and conversion attribution"
         },
         {
           image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&auto=format&fit=crop",
-          caption: "Customer segmentation dashboard showing buying patterns across demographics"
+          caption: "Customer acquisition dashboard displaying channel effectiveness and cost metrics"
         }
       ],
       insights: [
@@ -103,7 +103,7 @@ export const projects: Project[] = [
         "Pinpointed underperforming product categories with high return rates, enabling targeted quality improvement initiatives",
         "Mapped the customer journey across touchpoints, identifying key drop-off points in the conversion funnel"
       ],
-      conclusion: "The e-commerce analytics dashboard has transformed how the business understands its online sales performance and customer behavior. While Looker Studio provides excellent visualization capabilities and Google ecosystem integration, as the business scales, it may be worth exploring enterprise-grade solutions like Tableau or Power BI that offer more advanced data modeling, better handling of large datasets, and enhanced security features. However, for current needs, Looker Studio remains a cost-effective and powerful solution that delivers significant business value through actionable insights."
+      conclusion: "The marketing analytics dashboard has transformed how the business understands campaign performance and traffic attribution across digital channels. While Looker Studio provides excellent visualization capabilities and seamless Google ecosystem integration, the insights gained from proper attribution modeling have significantly improved marketing efficiency. The dashboard continues to serve as a critical tool for optimizing advertising spend and understanding customer acquisition patterns across the entire digital marketing funnel."
     }
   }
 ];
