@@ -11,7 +11,7 @@ export const projects: Project[] = [
     date: "2025-05-15",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
     content: {
-      overview: "This project performs an exploratory analysis on a dataset of tech industry layoffs using SQL. The analysis uncovers trends by company, geography, stage of funding, and time to provide insights into workforce changes across the tech industry. The dataset contains records of layoffs across various tech companies with key metrics including total layoffs, percentage of workforce affected, company funding stage, and geographic distribution.",
+      overview: "This project performs an exploratory analysis on a dataset of tech industry layoffs using SQL. The analysis uncovers trends by company, geography, stage of funding, and time to provide insights into workforce changes across the tech industry. The dataset contains records of layoffs across various tech companies with key metrics including total layoffs, percentage of workforce affected, company funding stage, and geographic distribution. Using systematic SQL queries, this analysis reveals patterns in the tech layoff landscape including identification of companies with complete shutdowns, geographic concentrations of workforce reductions, and temporal trends showing peak layoff periods.",
       challenge: "The tech industry has experienced significant workforce reductions, but understanding the patterns and scale of these layoffs requires systematic analysis. The challenge was to extract meaningful insights from raw layoff data to identify which companies, regions, and funding stages were most affected, and how these trends evolved over time.",
       approach: "I utilized SQL to perform comprehensive exploratory data analysis on the layoffs dataset. The approach included data validation, aggregation analysis by various dimensions (company, country, funding stage, time), identification of extreme cases (100% layoffs), trend analysis over time using rolling totals, and ranking companies by impact using window functions. Each query was designed to answer specific business questions about the layoff patterns.",
       results: "The analysis revealed critical insights into the tech layoff landscape, including identification of companies with the highest total layoffs, countries most affected by workforce reductions, temporal trends showing peak layoff periods, and correlations between company funding stages and layoff severity. The rolling total analysis provided a clear view of cumulative impact over time, while ranking functions highlighted the most affected companies per year.",
@@ -27,26 +27,26 @@ export const projects: Project[] = [
   },
   {
     id: "data-cleaning-processing",
-    title: "Data Cleaning & Processing",
-    description: "Comprehensive data cleaning and preprocessing methodologies for transforming raw, messy datasets into analysis-ready structured data.",
+    title: "Data Cleaning & Processing: Tech Layoffs Dataset",
+    description: "Comprehensive data cleaning and preprocessing of tech layoffs dataset using SQL to prepare clean, analysis-ready data for exploratory analysis.",
     thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop",
     category: "Data Engineering",
-    tools: ["Excel", "SQL", "Data Validation", "Business Intelligence"],
+    tools: ["SQL", "Data Validation", "Data Standardization", "MySQL"],
     date: "2025-05-10",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
     content: {
-      overview: "This project focuses on developing robust data cleaning and preprocessing methodologies to transform raw, messy datasets into analysis-ready structured data. It addresses common data quality issues such as missing values, inconsistent formatting, duplicates, outliers, and structural problems through systematic cleansing approaches.",
-      challenge: "Real-world datasets often come with numerous quality issues including missing values, inconsistent formatting, duplicates, outliers, and structural problems. These issues significantly impact the reliability of subsequent analyses and must be addressed through systematic cleaning processes before meaningful insights can be derived.",
-      approach: "I developed a comprehensive approach to data cleaning that included automated detection of data quality issues, implementation of appropriate cleaning techniques, and validation of the cleaned datasets. This involved creating reusable methods for handling specific data problems, standardizing formats, and implementing validation checks to ensure data integrity.",
-      results: "The developed cleaning methodologies successfully transformed several problematic datasets into high-quality, analysis-ready data resources. This improved the reliability of subsequent analyses and reduced processing time by streamlining repetitive cleaning tasks. The cleaning approaches were documented as reusable processes that can be applied to similar data challenges in the future.",
+      overview: "This project focuses on cleaning and preparing a dataset on tech industry layoffs for subsequent exploratory data analysis. The raw layoffs data contained duplicates, inconsistent formatting, null values, and extraneous columns that could distort analytical results. Using systematic SQL techniques, this project transformed messy real-world data into a clean, analysis-ready dataset that served as the foundation for comprehensive layoffs trend analysis.",
+      challenge: "The raw tech layoffs dataset presented multiple data quality issues including duplicate records, inconsistent company and industry names, missing values in critical fields, improper date formatting, and unnecessary columns. These issues would significantly impact the reliability of subsequent analyses and needed to be systematically addressed before meaningful insights could be derived from the layoffs data.",
+      approach: "I developed a comprehensive SQL-based data cleaning workflow that included creating a staging table (layoffs_staging2) for safe data manipulation, identifying and removing duplicates using ROW_NUMBER() with partitioning, standardizing textual fields for company names and industries, converting inconsistent date formats to proper MySQL DATE type, handling null and blank values strategically, and removing records with missing key metrics while preserving maximum valid data.",
+      results: "The cleaning process successfully transformed the problematic raw dataset into a high-quality, analysis-ready resource. All duplicates were removed while preserving data integrity, textual fields were standardized for consistent grouping and aggregation, date formatting was normalized for accurate time-based analysis, and null values were handled appropriately. The cleaned dataset enabled reliable exploratory data analysis that revealed meaningful patterns in tech industry layoffs.",
       insights: [
-        "Developed efficient methods for handling missing values that preserved data integrity while maximizing usable information",
-        "Created systematic approaches for detecting and correcting inconsistent formatting across data fields",
-        "Implemented outlier detection methods that distinguished between genuine outliers and data errors",
-        "Built validation frameworks that ensured cleaned data met predefined quality standards",
-        "Designed processes that reduced manual cleaning time compared to ad-hoc approaches"
+        "Duplicate detection using ROW_NUMBER() partitioning proved essential for maintaining data integrity across multiple layoff events for the same companies",
+        "Standardization of company names and industries was critical for accurate aggregation, as many companies appeared with slight variations in spelling or formatting",
+        "Date format conversion was necessary for temporal analysis, as the raw data contained inconsistent date representations that would prevent proper chronological ordering",
+        "Strategic handling of null values preserved maximum usable data while removing records that lacked essential metrics for analysis",
+        "Creating a dedicated staging table allowed for safe experimentation and validation of cleaning steps before finalizing the dataset"
       ],
-      conclusion: "This project demonstrates the critical importance of thorough data cleaning and preprocessing in the data analytics workflow. The methodologies and approaches developed showcase not only technical skills in data handling but also a systematic approach to ensuring data quality. These techniques form the foundation for reliable analytics and are essential for any organization working with real-world datasets."
+      conclusion: "This data cleaning project demonstrates the critical importance of thorough data preprocessing in the analytics workflow. The systematic SQL-based approach not only prepared the layoffs dataset for reliable analysis but also established reusable methodologies for handling similar data quality challenges. The cleaned dataset became the foundation for comprehensive exploratory data analysis, highlighting how proper data preparation enables meaningful insights from real-world datasets. This project showcases essential data engineering skills that are fundamental to any successful analytics initiative."
     }
   },
   {
