@@ -30,7 +30,7 @@ export const projects: Project[] = [
     title: "Data Cleaning & Processing: Tech Layoffs Dataset",
     description: "Comprehensive data cleaning and preprocessing of tech layoffs dataset using SQL to prepare clean, analysis-ready data for exploratory analysis.",
     thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop",
-    category: "Data Engineering",
+    category: "Data Analysis",
     tools: ["SQL", "Data Validation", "Data Standardization", "MySQL"],
     date: "2025-05-10",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
