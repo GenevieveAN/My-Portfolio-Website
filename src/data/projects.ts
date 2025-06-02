@@ -1,29 +1,28 @@
-
 import { Project } from "../types/Project";
 
 export const projects: Project[] = [
   {
     id: "exploratory-data-analysis",
-    title: "Exploratory Data Analysis",
-    description: "Detailed analysis of various datasets to uncover patterns and trends, focusing on extracting meaningful insights from business data.",
+    title: "Exploratory Data Analysis: Tech Layoffs Dataset",
+    description: "Comprehensive SQL analysis of tech industry layoffs dataset to uncover trends by company, geography, funding stage, and time periods.",
     thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
     category: "Data Analysis",
     tools: ["SQL", "Excel", "Data Visualization", "Statistical Analysis"],
     date: "2025-05-15",
     repoUrl: "https://github.com/GenevieveAN/Portfolio-Projects/tree/main",
     content: {
-      overview: "This project demonstrates exploratory data analysis techniques applied to business datasets. Using various analytical methods, I performed comprehensive analyses to extract meaningful patterns, trends, and insights from complex datasets.",
-      challenge: "Raw datasets often contain hidden patterns and relationships that aren't immediately apparent. The challenge was to employ appropriate analytical methods to uncover these insights while handling issues such as missing values, outliers, and complex relationships between variables.",
-      approach: "I utilized a structured approach to exploratory data analysis that involved data cleaning, descriptive statistics, correlation analysis, and data visualization. For each dataset, I formulated specific questions to guide the analysis and used appropriate tools to investigate the data from multiple perspectives.",
-      results: "The analysis revealed several significant insights, including customer behavior patterns, performance trends, and unexpected correlations between variables. These findings were documented with clear explanations and actionable recommendations for potential business decisions.",
+      overview: "This project performs an exploratory analysis on a dataset of tech industry layoffs using SQL. The analysis uncovers trends by company, geography, stage of funding, and time to provide insights into workforce changes across the tech industry. The dataset contains records of layoffs across various tech companies with key metrics including total layoffs, percentage of workforce affected, company funding stage, and geographic distribution.",
+      challenge: "The tech industry has experienced significant workforce reductions, but understanding the patterns and scale of these layoffs requires systematic analysis. The challenge was to extract meaningful insights from raw layoff data to identify which companies, regions, and funding stages were most affected, and how these trends evolved over time.",
+      approach: "I utilized SQL to perform comprehensive exploratory data analysis on the layoffs dataset. The approach included data validation, aggregation analysis by various dimensions (company, country, funding stage, time), identification of extreme cases (100% layoffs), trend analysis over time using rolling totals, and ranking companies by impact using window functions. Each query was designed to answer specific business questions about the layoff patterns.",
+      results: "The analysis revealed critical insights into the tech layoff landscape, including identification of companies with the highest total layoffs, countries most affected by workforce reductions, temporal trends showing peak layoff periods, and correlations between company funding stages and layoff severity. The rolling total analysis provided a clear view of cumulative impact over time, while ranking functions highlighted the most affected companies per year.",
       insights: [
-        "Identified key factors influencing customer purchasing decisions through correlation analysis",
-        "Discovered seasonal trends in data that could be leveraged for strategic planning",
-        "Uncovered demographic segments that showed unexpected behavior patterns",
-        "Mapped relationships between seemingly unrelated variables that revealed new business opportunities",
-        "Quantified the impact of outliers and developed recommendations for handling edge cases"
+        "Identified companies that completely shut down (100% layoffs) and their relationship to funding raised, revealing patterns in startup failures",
+        "Discovered geographic concentrations of layoffs, highlighting regions most vulnerable to tech industry contractions",
+        "Mapped temporal trends showing peak layoff periods and seasonal patterns in workforce reductions",
+        "Analyzed the relationship between company funding stages and layoff severity, providing insights into startup maturity and resilience",
+        "Created rolling totals that revealed the cumulative impact of layoffs over time, showing acceleration periods in the tech downturn"
       ],
-      conclusion: "This exploratory data analysis project demonstrates how systematic data investigation can transform raw information into actionable insights. The techniques and methodologies used are applicable across industries and can be adapted to various data-driven decision-making scenarios. The project showcases not only technical proficiency with analysis tools but also the ability to translate findings into business-relevant recommendations."
+      conclusion: "This exploratory data analysis successfully transformed raw layoff data into actionable insights about the tech industry's workforce trends. The SQL-based approach demonstrated how systematic data investigation can reveal patterns that inform understanding of industry-wide challenges. The analysis provides a foundation for further visualization and predictive modeling, and showcases the ability to extract business-relevant insights from complex datasets using structured query techniques."
     }
   },
   {
