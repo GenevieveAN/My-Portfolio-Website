@@ -71,6 +71,7 @@ const About = () => {
                     <Badge className="bg-analytics-blue">Excel</Badge>
                     <Badge className="bg-analytics-blue">Tableau</Badge>
                     <Badge className="bg-analytics-blue">Power BI</Badge>
+                    <Badge className="bg-analytics-blue">Salesforce Marketing Cloud</Badge>
                   </div>
                 </div>
                 
@@ -82,6 +83,7 @@ const About = () => {
                     <Badge className="bg-analytics-teal">Python</Badge>
                     <Badge className="bg-analytics-teal">HTML/CSS</Badge>
                     <Badge className="bg-analytics-teal">Git</Badge>
+                    <Badge className="bg-analytics-teal">AMPScript</Badge>
                   </div>
                 </div>
                 
@@ -92,6 +94,8 @@ const About = () => {
                     <Badge variant="outline" className="border-analytics-blue text-analytics-blue">Project Management</Badge>
                     <Badge variant="outline" className="border-analytics-blue text-analytics-blue">Customer Insights</Badge>
                     <Badge variant="outline" className="border-analytics-blue text-analytics-blue">Market Research</Badge>
+                    <Badge variant="outline" className="border-analytics-blue text-analytics-blue">HR Analytics</Badge>
+                    <Badge variant="outline" className="border-analytics-blue text-analytics-blue">Talent Intelligence</Badge>
                   </div>
                 </div>
               </div>
